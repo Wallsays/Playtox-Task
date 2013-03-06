@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE beans PUBLIC
+    "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<!-- define a JDBC DataSource -->
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.postgresql.Driver" />
+		<property name="url" value="jdbc:postgresql://localhost:5432/postgres" />
+		<property name="username" value="postgres" />
+		<property name="password" value="qweasd" />
+	</bean>
+
+	<!-- The related PlatformTransactionManager bean definition will then have 
+		a reference to the DataSource definition -->
+	<bean id="PgHbContactDao" class="com.wicket.dao.PgHbContactDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+</beans>

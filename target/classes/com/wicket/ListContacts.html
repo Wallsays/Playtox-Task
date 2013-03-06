@@ -1,0 +1,22 @@
+<wicket:extend>
+<div id="search-result" wicket:id="searchResult"></div>
+<div id="contacts">
+	<div wicket:id="contacts"class="contact">
+		<table>
+			<tr>
+				<td>
+                    <a wicket:id="view" href="#">
+                        <span wicket:id="firstName"></span>
+                        <span wicket:id="lastName"></span>
+                    </a>
+                </td>
+				<td wicket:id="email"></td>
+				<td class="manage-contact-links">
+                    <a wicket:id="edit" href="#">Изменить</a>
+                    <a wicket:id="delete" href="#">Удалить</a>
+                </td>
+			</tr>
+		</table>
+	</div>
+</div>
+</wicket:extend>

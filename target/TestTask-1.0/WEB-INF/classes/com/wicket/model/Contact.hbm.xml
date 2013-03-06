@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20.08.2012 22:18:28 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="com.wicket.model.Contact" table="_CONTACT">
+		<id name="id" type="java.lang.Long">
+			<column name="_ID" />
+			<generator class="native" />
+		</id>
+		<property name="firstName" type="java.lang.String">
+			<column name="_FIRSTNAME" length="15" not-null="true" />
+		</property>
+		<property name="lastName" type="java.lang.String">
+			<column name="_LASTNAME" length="20" not-null="true" />
+		</property>
+		<property name="email" type="java.lang.String">
+			<column name="_EMAIL"  length="150"/>
+		</property>
+		<property name="notes" type="java.lang.String">
+			<column name="_NOTES"  length="500"/>
+		</property>
+		<property name="group" type="java.lang.String">
+			<column name="_GROUP"  length="15"/>
+		</property>
+
+	</class>
+</hibernate-mapping>

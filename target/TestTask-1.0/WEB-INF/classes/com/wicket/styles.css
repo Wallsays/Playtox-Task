@@ -1,0 +1,81 @@
+BODY {
+	margin: 15px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+H1 {
+	font-size: 16px;
+	color: #6A4A3C;
+	width: 100%;
+	border-bottom: 1px solid #333;
+}
+
+#search-form {
+	margin-bottom: 0;
+}
+
+#search-form TABLE {
+	width: 500px;
+	background-color: #FAE43E;
+}
+
+#search-form TD {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#navigate-form {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#navigate-form TABLE {
+	width: 500px;
+	background-color: #FAE43E;
+}
+
+#navigate-form TD {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#search-result {
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+#contacts {
+	margin-top: 20px;
+}
+
+#contacts .contact {
+	border-bottom: 1px solid #f1f1f1;
+	width: 500px;
+}
+
+#contacts .contact TD {
+	font-size: 12px;
+	width: 200px;
+}
+
+.manage-contact-links A {
+	color: #EB6841;
+}
+
+INPUT,SELECT,TEXTAREA {
+	border: 1px solid #313131;
+	font-size: 12px;
+}
+
+#searh-field INPUT {
+	width: 100%;
+}
+
+.button {
+	border: 1px solid #999;
+	background-color: #f1f1f1;
+	color: #000;
+	width: 60px;
+}
+

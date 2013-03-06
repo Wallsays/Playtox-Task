@@ -1,0 +1,1297 @@
+00:09:09,781  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+00:09:09,800  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@6883fde6: display name [Root WebApplicationContext]; startup date [Fri Aug 24 00:09:09 NOVST 2012]; root of context hierarchy
+00:09:09,831  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+00:09:09,910  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@6883fde6]: org.springframework.beans.factory.support.DefaultListableBeanFactory@fd12614
+00:09:09,922  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@fd12614: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+00:09:09,946  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+00:09:09,950  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 167 ms
+00:09:10,061  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+00:09:10,064  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:09:10,065  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:09:10,066  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:09:10,067  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:09:10,067  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:09:10,068  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:09:10,071  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:09:10,072  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:09:10,073  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:09:10,074  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:09:10,075  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:09:10,075  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:09:10,076  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+00:09:10,080  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+00:09:14,351  INFO 59747579@qtp-1950702248-0 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+00:09:14,357  INFO 59747579@qtp-1950702248-0 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+00:09:14,359  INFO 59747579@qtp-1950702248-0 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+00:09:14,361  INFO 59747579@qtp-1950702248-0 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+00:09:14,384  INFO 59747579@qtp-1950702248-0 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+00:09:14,385  INFO 59747579@qtp-1950702248-0 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+00:09:14,417  WARN 59747579@qtp-1950702248-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:09:14,435  INFO 59747579@qtp-1950702248-0 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+00:09:14,536  WARN 59747579@qtp-1950702248-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:09:14,564  INFO 59747579@qtp-1950702248-0 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+00:09:14,649  INFO 59747579@qtp-1950702248-0 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+00:09:14,650  INFO 59747579@qtp-1950702248-0 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+00:09:14,650  INFO 59747579@qtp-1950702248-0 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+00:09:14,651  INFO 59747579@qtp-1950702248-0 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/DemoTask]
+00:09:14,652  INFO 59747579@qtp-1950702248-0 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=manager, password=****}
+00:09:14,945  INFO 59747579@qtp-1950702248-0 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+00:09:14,960  INFO 59747579@qtp-1950702248-0 LobCreatorBuilder:useContextualLobCreation:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:09:14,970  INFO 59747579@qtp-1950702248-0 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+00:09:14,975  INFO 59747579@qtp-1950702248-0 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+00:09:15,159  INFO 59747579@qtp-1950702248-0 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+00:09:15,160  INFO 59747579@qtp-1950702248-0 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+00:09:15,164  INFO 59747579@qtp-1950702248-0 SchemaUpdate:execute:205 - HHH000396: Updating schema
+00:09:15,202  INFO 59747579@qtp-1950702248-0 TableMetadata:<init>:65 - HHH000261: Table found: public._contact
+00:09:15,203  INFO 59747579@qtp-1950702248-0 TableMetadata:<init>:66 - HHH000037: Columns: [_group, _id, _email, _lastname, _firstname, _notes]
+00:09:15,203  INFO 59747579@qtp-1950702248-0 TableMetadata:<init>:68 - HHH000108: Foreign keys: []
+00:09:15,204  INFO 59747579@qtp-1950702248-0 TableMetadata:<init>:69 - HHH000126: Indexes: [_contact_pkey]
+00:09:15,204  INFO 59747579@qtp-1950702248-0 SchemaUpdate:execute:240 - HHH000232: Schema update complete
+00:09:15,401  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 69.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,403  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,404  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,405  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,409  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 137.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,552  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,552  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 73.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,553  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,554  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,555  WARN 59747579@qtp-1950702248-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:09:15,664  INFO 59747579@qtp-1950702248-0 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:09:17,224  INFO 1700109224@qtp-1950702248-2 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=INewBrowserWindowListener, method=public abstract void org.apache.wicket.markup.html.INewBrowserWindowListener.onNewBrowserWindow()]
+00:09:33,413  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+00:09:33,430  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@5eb41276: display name [Root WebApplicationContext]; startup date [Fri Aug 24 00:09:33 NOVST 2012]; root of context hierarchy
+00:09:33,466  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+00:09:33,543  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@5eb41276]: org.springframework.beans.factory.support.DefaultListableBeanFactory@c8398e7
+00:09:33,557  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c8398e7: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+00:09:33,584  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+00:09:33,587  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 172 ms
+00:09:33,699  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+00:09:33,702  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:09:33,703  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:09:33,704  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:09:33,705  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:09:33,707  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:09:33,707  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:09:33,709  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:09:33,710  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:09:33,711  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:09:33,712  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:09:33,714  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:09:33,714  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:09:33,715  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+00:09:33,719  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+00:11:40,809  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+00:11:40,828  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@6cf84b0a: display name [Root WebApplicationContext]; startup date [Fri Aug 24 00:11:40 NOVST 2012]; root of context hierarchy
+00:11:40,860  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+00:11:40,938  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@6cf84b0a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@32935741
+00:11:40,950  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32935741: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+00:11:40,976  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+00:11:40,980  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 169 ms
+00:11:41,095  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+00:11:41,098  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:11:41,099  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:11:41,101  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:11:41,102  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:11:41,103  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:11:41,104  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:11:41,107  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:11:41,108  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:11:41,110  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:11:41,112  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:11:41,115  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:11:41,117  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:11:41,119  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+00:11:41,123  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+00:11:46,996  INFO 1442012720@qtp-1443407612-0 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+00:11:47,004  INFO 1442012720@qtp-1443407612-0 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+00:11:47,007  INFO 1442012720@qtp-1443407612-0 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+00:11:47,009  INFO 1442012720@qtp-1443407612-0 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+00:11:47,030  INFO 1442012720@qtp-1443407612-0 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+00:11:47,031  INFO 1442012720@qtp-1443407612-0 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+00:11:47,058  WARN 1442012720@qtp-1443407612-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:11:47,076  INFO 1442012720@qtp-1443407612-0 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+00:11:47,182  WARN 1442012720@qtp-1443407612-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:11:47,210  INFO 1442012720@qtp-1443407612-0 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+00:11:47,292  INFO 1442012720@qtp-1443407612-0 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+00:11:47,293  INFO 1442012720@qtp-1443407612-0 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+00:11:47,294  INFO 1442012720@qtp-1443407612-0 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+00:11:47,295  INFO 1442012720@qtp-1443407612-0 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/DemoTask]
+00:11:47,296  INFO 1442012720@qtp-1443407612-0 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=manager, password=****}
+00:11:47,581  INFO 1442012720@qtp-1443407612-0 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+00:11:47,597  INFO 1442012720@qtp-1443407612-0 LobCreatorBuilder:useContextualLobCreation:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:11:47,609  INFO 1442012720@qtp-1443407612-0 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+00:11:47,615  INFO 1442012720@qtp-1443407612-0 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+00:11:47,780  INFO 1442012720@qtp-1443407612-0 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+00:11:47,780  INFO 1442012720@qtp-1443407612-0 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+00:11:47,785  INFO 1442012720@qtp-1443407612-0 SchemaUpdate:execute:205 - HHH000396: Updating schema
+00:11:47,822  INFO 1442012720@qtp-1443407612-0 TableMetadata:<init>:65 - HHH000261: Table found: public._contact
+00:11:47,823  INFO 1442012720@qtp-1443407612-0 TableMetadata:<init>:66 - HHH000037: Columns: [_group, _id, _email, _lastname, _firstname, _notes]
+00:11:47,824  INFO 1442012720@qtp-1443407612-0 TableMetadata:<init>:68 - HHH000108: Foreign keys: []
+00:11:47,831  INFO 1442012720@qtp-1443407612-0 TableMetadata:<init>:69 - HHH000126: Indexes: [_contact_pkey]
+00:11:47,832  INFO 1442012720@qtp-1443407612-0 SchemaUpdate:execute:240 - HHH000232: Schema update complete
+00:11:48,005  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 69.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,009  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,013  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,015  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,017  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 137.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,162  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,164  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 73.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,165  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,167  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,168  WARN 1442012720@qtp-1443407612-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:11:48,244  INFO 1442012720@qtp-1443407612-0 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:13:22,588  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+00:13:22,608  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@5e75e08: display name [Root WebApplicationContext]; startup date [Fri Aug 24 00:13:22 NOVST 2012]; root of context hierarchy
+00:13:22,646  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+00:13:22,722  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@5e75e08]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3a2b3574
+00:13:22,737  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3a2b3574: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+00:13:22,762  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+00:13:22,767  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 176 ms
+00:13:22,878  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+00:13:22,881  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:13:22,883  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:13:22,884  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:13:22,885  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:13:22,887  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:13:22,888  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:13:22,890  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:13:22,891  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:13:22,894  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:13:22,896  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:13:22,898  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:13:22,899  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:13:22,900  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+00:13:22,905  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+00:13:27,526  INFO 1381876328@qtp-563165009-0 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+00:13:27,535  INFO 1381876328@qtp-563165009-0 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+00:13:27,539  INFO 1381876328@qtp-563165009-0 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+00:13:27,541  INFO 1381876328@qtp-563165009-0 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+00:13:27,571  INFO 1381876328@qtp-563165009-0 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+00:13:27,572  INFO 1381876328@qtp-563165009-0 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+00:13:27,598  WARN 1381876328@qtp-563165009-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:13:27,616  INFO 1381876328@qtp-563165009-0 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+00:13:27,704  WARN 1381876328@qtp-563165009-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:13:27,729  INFO 1381876328@qtp-563165009-0 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+00:13:27,807  INFO 1381876328@qtp-563165009-0 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+00:13:27,808  INFO 1381876328@qtp-563165009-0 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+00:13:27,809  INFO 1381876328@qtp-563165009-0 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+00:13:27,810  INFO 1381876328@qtp-563165009-0 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/DemoTask]
+00:13:27,811  INFO 1381876328@qtp-563165009-0 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=manager, password=****}
+00:13:28,095  INFO 1381876328@qtp-563165009-0 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+00:13:28,114  INFO 1381876328@qtp-563165009-0 LobCreatorBuilder:useContextualLobCreation:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:13:28,125  INFO 1381876328@qtp-563165009-0 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+00:13:28,132  INFO 1381876328@qtp-563165009-0 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+00:13:28,295  INFO 1381876328@qtp-563165009-0 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+00:13:28,296  INFO 1381876328@qtp-563165009-0 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+00:13:28,302  INFO 1381876328@qtp-563165009-0 SchemaUpdate:execute:205 - HHH000396: Updating schema
+00:13:28,340  INFO 1381876328@qtp-563165009-0 TableMetadata:<init>:65 - HHH000261: Table found: public._contact
+00:13:28,341  INFO 1381876328@qtp-563165009-0 TableMetadata:<init>:66 - HHH000037: Columns: [_group, _id, _email, _lastname, _firstname, _notes]
+00:13:28,342  INFO 1381876328@qtp-563165009-0 TableMetadata:<init>:68 - HHH000108: Foreign keys: []
+00:13:28,343  INFO 1381876328@qtp-563165009-0 TableMetadata:<init>:69 - HHH000126: Indexes: [_contact_pkey]
+00:13:28,344  INFO 1381876328@qtp-563165009-0 SchemaUpdate:execute:240 - HHH000232: Schema update complete
+00:13:28,502  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 69.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,504  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,505  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,507  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,508  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 137.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,668  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,669  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 73.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,671  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,672  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,673  WARN 1381876328@qtp-563165009-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:13:28,786  INFO 1381876328@qtp-563165009-0 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:35:18,997  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+00:35:19,013  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@3c3ca56f: display name [Root WebApplicationContext]; startup date [Fri Aug 24 00:35:19 NOVST 2012]; root of context hierarchy
+00:35:19,048  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+00:35:19,125  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@3c3ca56f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@646dd60e
+00:35:19,139  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@646dd60e: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+00:35:19,165  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+00:35:19,169  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 170 ms
+00:35:19,284  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+00:35:19,288  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:35:19,289  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:35:19,290  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:35:19,291  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+00:35:19,291  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:35:19,292  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+00:35:19,294  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:35:19,295  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+00:35:19,296  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:35:19,297  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+00:35:19,298  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:35:19,299  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+00:35:19,300  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+00:35:19,304  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+00:35:22,530  INFO 332327930@qtp-826629364-0 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+00:35:22,538  INFO 332327930@qtp-826629364-0 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+00:35:22,541  INFO 332327930@qtp-826629364-0 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+00:35:22,543  INFO 332327930@qtp-826629364-0 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+00:35:22,569  INFO 332327930@qtp-826629364-0 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+00:35:22,569  INFO 332327930@qtp-826629364-0 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+00:35:22,591  WARN 332327930@qtp-826629364-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:35:22,608  INFO 332327930@qtp-826629364-0 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+00:35:22,691  WARN 332327930@qtp-826629364-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+00:35:22,716  INFO 332327930@qtp-826629364-0 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+00:35:22,809  INFO 332327930@qtp-826629364-0 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+00:35:22,810  INFO 332327930@qtp-826629364-0 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+00:35:22,811  INFO 332327930@qtp-826629364-0 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+00:35:22,812  INFO 332327930@qtp-826629364-0 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/DemoTask]
+00:35:22,813  INFO 332327930@qtp-826629364-0 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=manager, password=****}
+00:35:23,118  INFO 332327930@qtp-826629364-0 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+00:35:23,136  INFO 332327930@qtp-826629364-0 LobCreatorBuilder:useContextualLobCreation:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:35:23,149  INFO 332327930@qtp-826629364-0 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+00:35:23,169  INFO 332327930@qtp-826629364-0 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+00:35:23,341  INFO 332327930@qtp-826629364-0 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+00:35:23,342  INFO 332327930@qtp-826629364-0 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+00:35:23,346  INFO 332327930@qtp-826629364-0 SchemaUpdate:execute:205 - HHH000396: Updating schema
+00:35:23,384  INFO 332327930@qtp-826629364-0 TableMetadata:<init>:65 - HHH000261: Table found: public._contact
+00:35:23,385  INFO 332327930@qtp-826629364-0 TableMetadata:<init>:66 - HHH000037: Columns: [_group, _id, _email, _lastname, _firstname, _notes]
+00:35:23,385  INFO 332327930@qtp-826629364-0 TableMetadata:<init>:68 - HHH000108: Foreign keys: []
+00:35:23,386  INFO 332327930@qtp-826629364-0 TableMetadata:<init>:69 - HHH000126: Indexes: [_contact_pkey]
+00:35:23,387  INFO 332327930@qtp-826629364-0 SchemaUpdate:execute:240 - HHH000232: Schema update complete
+00:35:23,549  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 69.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,550  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,551  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,552  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,552  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 137.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,693  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,694  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 73.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,694  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,695  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,696  WARN 332327930@qtp-826629364-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+00:35:23,803  INFO 332327930@qtp-826629364-0 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+00:35:26,832  INFO 149175108@qtp-826629364-2 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=INewBrowserWindowListener, method=public abstract void org.apache.wicket.markup.html.INewBrowserWindowListener.onNewBrowserWindow()]
+00:41:31,774  INFO 1055726195@qtp-826629364-3 PropertiesFactory:loadPropertiesFileAndWatchForChanges:282 - Loading properties files from jar:file:/E:/Projects/JAVA/workspaceEE/TestTask/target/work/webapp/WEB-INF/lib/wicket-1.3.0.jar!/org/apache/wicket/Application_ru.xml
+00:41:31,780  INFO 1055726195@qtp-826629364-3 PropertiesFactory:loadPropertiesFileAndWatchForChanges:282 - Loading properties files from jar:file:/E:/Projects/JAVA/workspaceEE/TestTask/target/work/webapp/WEB-INF/lib/wicket-1.3.0.jar!/org/apache/wicket/Application.properties
+14:52:30,776  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+14:52:30,808  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@26f6852d: display name [Root WebApplicationContext]; startup date [Wed Aug 29 14:52:30 NOVST 2012]; root of context hierarchy
+14:52:30,889  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+14:52:31,012  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@26f6852d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@34f34071
+14:52:31,044  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@34f34071: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+14:52:31,090  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+14:52:31,095  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 317 ms
+14:52:31,229  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+14:52:31,232  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+14:52:31,233  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+14:52:31,235  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+14:52:31,235  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+14:52:31,236  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+14:52:31,237  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+14:52:31,239  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+14:52:31,240  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+14:52:31,241  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+14:52:31,242  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+14:52:31,250  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+14:52:31,251  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+14:52:31,253  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+14:52:31,261  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+14:52:45,373  INFO 1407187832@qtp-1939356375-2 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+14:52:45,393  INFO 1407187832@qtp-1939356375-2 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+14:52:45,396  INFO 1407187832@qtp-1939356375-2 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+14:52:45,398  INFO 1407187832@qtp-1939356375-2 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+14:52:45,476  INFO 1407187832@qtp-1939356375-2 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+14:52:45,476  INFO 1407187832@qtp-1939356375-2 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+14:52:45,554  WARN 1407187832@qtp-1939356375-2 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+14:52:45,590  INFO 1407187832@qtp-1939356375-2 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+14:52:45,731  WARN 1407187832@qtp-1939356375-2 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+14:52:45,768  INFO 1407187832@qtp-1939356375-2 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+14:52:45,999  INFO 1407187832@qtp-1939356375-2 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+14:52:46,000  INFO 1407187832@qtp-1939356375-2 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+14:52:46,001  INFO 1407187832@qtp-1939356375-2 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+14:52:46,002  INFO 1407187832@qtp-1939356375-2 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/DemoTask]
+14:52:46,002  INFO 1407187832@qtp-1939356375-2 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=manager, password=****}
+14:52:47,113  WARN 1407187832@qtp-1939356375-2 JdbcServicesImpl:configure:169 - HHH000342: Could not obtain connection to query metadata : Подсоединение отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+14:52:47,185  INFO 1407187832@qtp-1939356375-2 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14:52:47,199  INFO 1407187832@qtp-1939356375-2 LobCreatorBuilder:useContextualLobCreation:85 - HHH000422: Disabling contextual LOB creation as connection was null
+14:52:47,241  INFO 1407187832@qtp-1939356375-2 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+14:52:47,255  INFO 1407187832@qtp-1939356375-2 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+14:52:47,688  INFO 1407187832@qtp-1939356375-2 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+14:52:47,689  INFO 1407187832@qtp-1939356375-2 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+14:52:48,753 ERROR 1407187832@qtp-1939356375-2 SchemaUpdate:execute:201 - HHH000319: Could not get database metadata
+org.postgresql.util.PSQLException: Подсоединение отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 53 more
+14:52:48,755 ERROR 1407187832@qtp-1939356375-2 SchemaUpdate:execute:245 - HHH000299: Could not complete schema update
+org.postgresql.util.PSQLException: Подсоединение отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 53 more
+14:52:50,010  WARN 1407187832@qtp-1939356375-2 SqlExceptionHelper:logExceptions:143 - SQL Error: 0, SQLState: 08001
+14:52:50,011 ERROR 1407187832@qtp-1939356375-2 SqlExceptionHelper:logExceptions:144 - Подсоединение отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+14:52:50,012 ERROR 1407187832@qtp-1939356375-2 RequestCycle:logRuntimeException:1328 - Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+org.apache.wicket.WicketRuntimeException: Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:175)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	... 28 more
+Caused by: org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:131)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:304)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:352)
+	at $Proxy16.beginTransaction(Unknown Source)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:92)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	... 33 more
+Caused by: org.postgresql.util.PSQLException: Подсоединение отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+	... 45 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 58 more
+15:43:07,801  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+15:43:07,820  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@69ba045: display name [Root WebApplicationContext]; startup date [Wed Aug 29 15:43:07 NOVST 2012]; root of context hierarchy
+15:43:07,854  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+15:43:07,935  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@69ba045]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6b9ae493
+15:43:07,951  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6b9ae493: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+15:43:07,978  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+15:43:07,982  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 179 ms
+15:43:08,103  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+15:43:08,106  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:43:08,107  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:43:08,108  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:43:08,109  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:43:08,110  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:43:08,111  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:43:08,160  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:43:08,161  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:43:08,162  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:43:08,163  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:43:08,164  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:43:08,165  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:43:08,166  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+15:43:08,172  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+15:43:11,399  INFO 1334375686@qtp-117321903-0 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15:43:11,406  INFO 1334375686@qtp-117321903-0 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+15:43:11,409  INFO 1334375686@qtp-117321903-0 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+15:43:11,410  INFO 1334375686@qtp-117321903-0 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+15:43:11,433  INFO 1334375686@qtp-117321903-0 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+15:43:11,433  INFO 1334375686@qtp-117321903-0 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+15:43:11,455  WARN 1334375686@qtp-117321903-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:43:11,471  INFO 1334375686@qtp-117321903-0 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+15:43:11,558  WARN 1334375686@qtp-117321903-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:43:11,588  INFO 1334375686@qtp-117321903-0 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+15:43:11,675  INFO 1334375686@qtp-117321903-0 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15:43:11,676  INFO 1334375686@qtp-117321903-0 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+15:43:11,677  INFO 1334375686@qtp-117321903-0 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+15:43:11,678  INFO 1334375686@qtp-117321903-0 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+15:43:11,678  INFO 1334375686@qtp-117321903-0 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=, password=****}
+15:43:11,818  WARN 1334375686@qtp-117321903-0 JdbcServicesImpl:configure:169 - HHH000342: Could not obtain connection to query metadata : ?????: ? ????????? ?????? ?? ??????? ??? ???????????? PostgreSQL
+15:43:11,827  INFO 1334375686@qtp-117321903-0 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:43:11,835  INFO 1334375686@qtp-117321903-0 LobCreatorBuilder:useContextualLobCreation:85 - HHH000422: Disabling contextual LOB creation as connection was null
+15:43:11,844  INFO 1334375686@qtp-117321903-0 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+15:43:11,848  INFO 1334375686@qtp-117321903-0 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+15:43:12,013  INFO 1334375686@qtp-117321903-0 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+15:43:12,013  INFO 1334375686@qtp-117321903-0 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+15:43:12,068 ERROR 1334375686@qtp-117321903-0 SchemaUpdate:execute:201 - HHH000319: Could not get database metadata
+org.postgresql.util.PSQLException: ?????: ? ????????? ?????? ?? ??????? ??? ???????????? PostgreSQL
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+15:43:12,070 ERROR 1334375686@qtp-117321903-0 SchemaUpdate:execute:245 - HHH000299: Could not complete schema update
+org.postgresql.util.PSQLException: ?????: ? ????????? ?????? ?? ??????? ??? ???????????? PostgreSQL
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+15:43:12,220  WARN 1334375686@qtp-117321903-0 SqlExceptionHelper:logExceptions:143 - SQL Error: 0, SQLState: 28000
+15:43:12,221 ERROR 1334375686@qtp-117321903-0 SqlExceptionHelper:logExceptions:144 - ?????: ? ????????? ?????? ?? ??????? ??? ???????????? PostgreSQL
+15:43:12,224 ERROR 1334375686@qtp-117321903-0 RequestCycle:logRuntimeException:1328 - Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+org.apache.wicket.WicketRuntimeException: Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:175)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	... 28 more
+Caused by: org.hibernate.exception.GenericJDBCException: Could not open connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:304)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:352)
+	at $Proxy16.beginTransaction(Unknown Source)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:92)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	... 33 more
+Caused by: org.postgresql.util.PSQLException: ?????: ? ????????? ?????? ?? ??????? ??? ???????????? PostgreSQL
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+	... 45 more
+15:51:13,447  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+15:51:13,466  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@77def3f5: display name [Root WebApplicationContext]; startup date [Wed Aug 29 15:51:13 NOVST 2012]; root of context hierarchy
+15:51:13,500  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+15:51:13,579  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@77def3f5]: org.springframework.beans.factory.support.DefaultListableBeanFactory@32cd736
+15:51:13,593  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32cd736: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+15:51:13,623  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+15:51:13,627  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 178 ms
+15:51:13,753  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+15:51:13,756  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:51:13,757  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:51:13,759  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:51:13,760  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:51:13,760  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:51:13,761  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:51:13,762  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:51:13,763  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:51:13,765  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:51:13,765  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:51:13,767  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:51:13,767  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:51:13,768  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+15:51:13,774  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+15:51:20,455  INFO 72609960@qtp-320508688-1 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15:51:20,462  INFO 72609960@qtp-320508688-1 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+15:51:20,465  INFO 72609960@qtp-320508688-1 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+15:51:20,466  INFO 72609960@qtp-320508688-1 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+15:51:20,488  INFO 72609960@qtp-320508688-1 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+15:51:20,488  INFO 72609960@qtp-320508688-1 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+15:51:20,509  WARN 72609960@qtp-320508688-1 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:51:20,525  INFO 72609960@qtp-320508688-1 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+15:51:20,609  WARN 72609960@qtp-320508688-1 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:51:20,637  INFO 72609960@qtp-320508688-1 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+15:51:20,721  INFO 72609960@qtp-320508688-1 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15:51:20,722  INFO 72609960@qtp-320508688-1 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+15:51:20,723  INFO 72609960@qtp-320508688-1 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+15:51:20,726  INFO 72609960@qtp-320508688-1 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+15:51:20,727  INFO 72609960@qtp-320508688-1 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=postgres, password=****}
+15:51:20,850  WARN 72609960@qtp-320508688-1 JdbcServicesImpl:configure:169 - HHH000342: Could not obtain connection to query metadata : ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+15:51:20,858  INFO 72609960@qtp-320508688-1 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:51:20,866  INFO 72609960@qtp-320508688-1 LobCreatorBuilder:useContextualLobCreation:85 - HHH000422: Disabling contextual LOB creation as connection was null
+15:51:20,876  INFO 72609960@qtp-320508688-1 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+15:51:20,880  INFO 72609960@qtp-320508688-1 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+15:51:21,037  INFO 72609960@qtp-320508688-1 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+15:51:21,038  INFO 72609960@qtp-320508688-1 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+15:51:21,089 ERROR 72609960@qtp-320508688-1 SchemaUpdate:execute:201 - HHH000319: Could not get database metadata
+org.postgresql.util.PSQLException: ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+15:51:21,091 ERROR 72609960@qtp-320508688-1 SchemaUpdate:execute:245 - HHH000299: Could not complete schema update
+org.postgresql.util.PSQLException: ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+15:51:21,228  WARN 72609960@qtp-320508688-1 SqlExceptionHelper:logExceptions:143 - SQL Error: 0, SQLState: 28P01
+15:51:21,229 ERROR 72609960@qtp-320508688-1 SqlExceptionHelper:logExceptions:144 - ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+15:51:21,232 ERROR 72609960@qtp-320508688-1 RequestCycle:logRuntimeException:1328 - Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+org.apache.wicket.WicketRuntimeException: Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:175)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	... 28 more
+Caused by: org.hibernate.exception.GenericJDBCException: Could not open connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:304)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:352)
+	at $Proxy16.beginTransaction(Unknown Source)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:92)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	... 33 more
+Caused by: org.postgresql.util.PSQLException: ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+	... 45 more
+15:54:08,907  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+15:54:08,927  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@51de8adb: display name [Root WebApplicationContext]; startup date [Wed Aug 29 15:54:08 NOVST 2012]; root of context hierarchy
+15:54:08,964  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+15:54:09,054  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@51de8adb]: org.springframework.beans.factory.support.DefaultListableBeanFactory@66525531
+15:54:09,070  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@66525531: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+15:54:09,100  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+15:54:09,104  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 195 ms
+15:54:09,234  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+15:54:09,236  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:54:09,237  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:54:09,238  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:54:09,238  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:54:09,239  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:54:09,239  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:54:09,240  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:54:09,241  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:54:09,241  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:54:09,242  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:54:09,243  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:54:09,243  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:54:09,243  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+15:54:09,247  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+15:54:21,243  INFO 1724881904@qtp-1392941214-0 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15:54:21,252  INFO 1724881904@qtp-1392941214-0 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+15:54:21,255  INFO 1724881904@qtp-1392941214-0 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+15:54:21,257  INFO 1724881904@qtp-1392941214-0 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+15:54:21,281  INFO 1724881904@qtp-1392941214-0 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+15:54:21,282  INFO 1724881904@qtp-1392941214-0 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+15:54:21,308  WARN 1724881904@qtp-1392941214-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:54:21,326  INFO 1724881904@qtp-1392941214-0 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+15:54:21,411  WARN 1724881904@qtp-1392941214-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:54:21,442  INFO 1724881904@qtp-1392941214-0 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+15:54:21,534  INFO 1724881904@qtp-1392941214-0 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15:54:21,535  INFO 1724881904@qtp-1392941214-0 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+15:54:21,536  INFO 1724881904@qtp-1392941214-0 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+15:54:21,537  INFO 1724881904@qtp-1392941214-0 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+15:54:21,538  INFO 1724881904@qtp-1392941214-0 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=postgres, password=****}
+15:54:21,636  WARN 1724881904@qtp-1392941214-0 JdbcServicesImpl:configure:169 - HHH000342: Could not obtain connection to query metadata : ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+15:54:21,643  INFO 1724881904@qtp-1392941214-0 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:54:21,654  INFO 1724881904@qtp-1392941214-0 LobCreatorBuilder:useContextualLobCreation:85 - HHH000422: Disabling contextual LOB creation as connection was null
+15:54:21,664  INFO 1724881904@qtp-1392941214-0 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+15:54:21,670  INFO 1724881904@qtp-1392941214-0 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+15:54:21,844  INFO 1724881904@qtp-1392941214-0 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+15:54:21,844  INFO 1724881904@qtp-1392941214-0 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+15:54:21,896 ERROR 1724881904@qtp-1392941214-0 SchemaUpdate:execute:201 - HHH000319: Could not get database metadata
+org.postgresql.util.PSQLException: ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+15:54:21,898 ERROR 1724881904@qtp-1392941214-0 SchemaUpdate:execute:245 - HHH000299: Could not complete schema update
+org.postgresql.util.PSQLException: ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:492)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1746)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at com.wicket.dao.SessionFactoryUtil.<clinit>(SessionFactoryUtil.java:14)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:90)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+15:54:22,048  WARN 1724881904@qtp-1392941214-0 SqlExceptionHelper:logExceptions:143 - SQL Error: 0, SQLState: 28P01
+15:54:22,049 ERROR 1724881904@qtp-1392941214-0 SqlExceptionHelper:logExceptions:144 - ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+15:54:22,053 ERROR 1724881904@qtp-1392941214-0 RequestCycle:logRuntimeException:1328 - Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+org.apache.wicket.WicketRuntimeException: Can't instantiate page using constructor public com.wicket.ListContacts(org.apache.wicket.PageParameters) and argument 
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:175)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:66)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:262)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:283)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:210)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:90)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1094)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1169)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1245)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:489)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:354)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:194)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:154)
+	... 28 more
+Caused by: org.hibernate.exception.GenericJDBCException: Could not open connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:304)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:169)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doBegin(JdbcTransaction.java:67)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.begin(AbstractTransactionImpl.java:160)
+	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.hibernate.context.internal.ThreadLocalSessionContext$TransactionProtectionWrapper.invoke(ThreadLocalSessionContext.java:352)
+	at $Proxy16.beginTransaction(Unknown Source)
+	at com.wicket.dao.PgHbContactDao.PageCount(PgHbContactDao.java:92)
+	at com.wicket.ListContacts.<init>(ListContacts.java:25)
+	... 33 more
+Caused by: org.postgresql.util.PSQLException: ?????: ???????????? "postgres" ?? ?????? ???????? ??????????? (?? ??????)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:193)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:281)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:297)
+	... 45 more
+15:55:52,046  INFO main ContextLoader:initWebApplicationContext:178 - Root WebApplicationContext: initialization started
+15:55:52,066  INFO main XmlWebApplicationContext:prepareRefresh:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@13ce168b: display name [Root WebApplicationContext]; startup date [Wed Aug 29 15:55:52 NOVST 2012]; root of context hierarchy
+15:55:52,102  INFO main XmlBeanDefinitionReader:loadBeanDefinitions:303 - Loading XML bean definitions from class path resource [applicationContextPSQL.xml]
+15:55:52,190  INFO main XmlWebApplicationContext:obtainFreshBeanFactory:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@13ce168b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5999c55a
+15:55:52,204  INFO main DefaultListableBeanFactory:preInstantiateSingletons:276 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5999c55a: defining beans [dataSource,PgHbContactDao]; root of factory hierarchy
+15:55:52,234  INFO main DriverManagerDataSource:setDriverClassName:153 - Loaded JDBC driver: org.postgresql.Driver
+15:55:52,239  INFO main ContextLoader:initWebApplicationContext:198 - Root WebApplicationContext: initialization completed in 191 ms
+15:55:52,377  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket core library initializer
+15:55:52,380  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:55:52,380  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:55:52,382  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:55:52,383  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+15:55:52,384  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:55:52,385  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+15:55:52,386  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:55:52,386  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+15:55:52,387  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:55:52,388  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+15:55:52,389  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:55:52,389  INFO main RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15:55:52,390  INFO main Application:callInitializers:786 - [WicketApplication] init: Wicket extensions initializer
+15:55:52,395  INFO main WebApplication:logStarted:641 - [WicketApplication] Started Wicket version 1.3.0 in deployment mode
+15:55:56,562  INFO 1838938518@qtp-988558046-0 Version:<clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+15:55:56,570  INFO 1838938518@qtp-988558046-0 Version:logVersion:41 - HHH000412: Hibernate Core {4.1.6.Final}
+15:55:56,573  INFO 1838938518@qtp-988558046-0 Environment:<clinit>:239 - HHH000206: hibernate.properties not found
+15:55:56,575  INFO 1838938518@qtp-988558046-0 Environment:buildBytecodeProvider:342 - HHH000021: Bytecode provider name : javassist
+15:55:56,598  INFO 1838938518@qtp-988558046-0 Configuration:configure:1929 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+15:55:56,599  INFO 1838938518@qtp-988558046-0 Configuration:getConfigurationInputStream:1948 - HHH000040: Configuration resource: /hibernate.cfg.xml
+15:55:56,623  WARN 1838938518@qtp-988558046-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:55:56,640  INFO 1838938518@qtp-988558046-0 Configuration:addResource:718 - HHH000221: Reading mappings from resource: com/wicket/model/Contact.hbm.xml
+15:55:56,726  WARN 1838938518@qtp-988558046-0 DTDEntityResolver:resolveEntity:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+15:55:56,754  INFO 1838938518@qtp-988558046-0 Configuration:doConfigure:2070 - HHH000041: Configured SessionFactory: null
+15:55:56,841  INFO 1838938518@qtp-988558046-0 DriverManagerConnectionProviderImpl:configure:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+15:55:56,842  INFO 1838938518@qtp-988558046-0 DriverManagerConnectionProviderImpl:configure:130 - HHH000115: Hibernate connection pool size: 20
+15:55:56,842  INFO 1838938518@qtp-988558046-0 DriverManagerConnectionProviderImpl:configure:133 - HHH000006: Autocommit mode: false
+15:55:56,843  INFO 1838938518@qtp-988558046-0 DriverManagerConnectionProviderImpl:configure:147 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+15:55:56,844  INFO 1838938518@qtp-988558046-0 DriverManagerConnectionProviderImpl:configure:152 - HHH000046: Connection properties: {user=postgres, password=****}
+15:55:57,347  INFO 1838938518@qtp-988558046-0 Dialect:<init>:125 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:55:57,361  INFO 1838938518@qtp-988558046-0 LobCreatorBuilder:useContextualLobCreation:120 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+15:55:57,373  INFO 1838938518@qtp-988558046-0 TransactionFactoryInitiator:initiateService:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+15:55:57,381  INFO 1838938518@qtp-988558046-0 ASTQueryTranslatorFactory:<init>:48 - HHH000397: Using ASTQueryTranslatorFactory
+15:55:57,555  INFO 1838938518@qtp-988558046-0 SchemaUpdate:execute:182 - HHH000228: Running hbm2ddl schema update
+15:55:57,556  INFO 1838938518@qtp-988558046-0 SchemaUpdate:execute:193 - HHH000102: Fetching database metadata
+15:55:57,581  INFO 1838938518@qtp-988558046-0 SchemaUpdate:execute:205 - HHH000396: Updating schema
+15:55:57,585  INFO 1838938518@qtp-988558046-0 DatabaseMetaData:getTableMetadata:120 - HHH000262: Table not found: _CONTACT
+15:55:57,589  INFO 1838938518@qtp-988558046-0 DatabaseMetaData:getTableMetadata:120 - HHH000262: Table not found: _CONTACT
+15:55:57,592  INFO 1838938518@qtp-988558046-0 DatabaseMetaData:getTableMetadata:120 - HHH000262: Table not found: hibernate_sequence
+15:55:57,614  INFO 1838938518@qtp-988558046-0 SchemaUpdate:execute:240 - HHH000232: Schema update complete
+15:55:57,866  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 69.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:57,875  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:57,876  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:57,876  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:57,877  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 137.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:58,172  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 53.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:58,172  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 73.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:58,173  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 89.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:58,174  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 105.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:58,174  WARN 1838938518@qtp-988558046-0 HqlSqlWalker:generatePositionalParameter:929 - [DEPRECATION] Encountered positional parameter near line 1, column 121.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+15:55:58,267  INFO 1838938518@qtp-988558046-0 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+15:56:05,098  INFO 748982557@qtp-988558046-2 PropertiesFactory:loadPropertiesFileAndWatchForChanges:282 - Loading properties files from jar:file:/C:/Users/Dis/.m2/repository/org/apache/wicket/wicket/1.3.0/wicket-1.3.0.jar!/org/apache/wicket/Application_ru.xml
+15:56:05,103  INFO 748982557@qtp-988558046-2 PropertiesFactory:loadPropertiesFileAndWatchForChanges:282 - Loading properties files from jar:file:/C:/Users/Dis/.m2/repository/org/apache/wicket/wicket/1.3.0/wicket-1.3.0.jar!/org/apache/wicket/Application.properties
+15:56:11,834  INFO 748982557@qtp-988558046-2 RequestListenerInterface:registerRequestListenerInterface:278 - registered listener interface [RequestListenerInterface name=INewBrowserWindowListener, method=public abstract void org.apache.wicket.markup.html.INewBrowserWindowListener.onNewBrowserWindow()]
